@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[46],{1115:function(a,e,c){"use strict";c.r(e);var d=c(0),r=(c(1),c(1358)),s=c(1450);e.default=()=>Object(d.a)("div",{className:"column search-page"},void 0,Object(d.a)(r.a,{}),Object(d.a)("div",{className:"drawer__pager"},void 0,Object(d.a)("div",{className:"drawer__inner darker"},void 0,Object(d.a)(s.a,{}))))}}]);
+//# sourceMappingURL=search-c99091f76507fdec49c3.chunk.js.map

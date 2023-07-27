@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[383],{1288:function(e,n,s){"use strict";s.r(n),s.d(n,"default",(function(){return i}));var t=s(0),c=s(1),o=s.n(c),a=s(4),r=s(148);const{localeData:l,messages:d}=Object(r.getLocale)();Object(a.e)(l);class i extends o.a.PureComponent{render(){const{locale:e,children:n}=this.props;return Object(t.a)(a.d,{locale:e,messages:d},void 0,n)}}}}]);
+//# sourceMappingURL=383-4f05995244934ac45b5a.chunk.js.map
