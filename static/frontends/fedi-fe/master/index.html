@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--server-generated-meta-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+<meta name="pleroma-pwa/config/environment" content="%7B%22modulePrefix%22%3A%22pleroma-pwa%22%2C%22deployTarget%22%3A%22production%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22historySupportMiddleware%22%3Atrue%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%2C%22Function%22%3Afalse%2C%22String%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Afalse%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22contentSecurityPolicy%22%3A%7B%7D%2C%22emberSimpleAuthConfig%22%3A%7B%22authenticationRoute%22%3A%22sign-in%22%2C%22routeAfterAuthentication%22%3A%22%2Ffeeds%2Fhome%22%2C%22routeIfAlreadyAuthenticated%22%3A%22%2Ffeeds%2Fhome%22%7D%2C%22apiBaseUrl%22%3A%22%22%2C%22CONVERSATION_MAX_DEPTH%22%3A6%2C%22DEFAULT_AVATAR%22%3A%22%2Fimages%2Favi.png%22%2C%22DEFAULT_POLL_EXPIRATION%22%3A600%2C%22FEED_PAGE_SIZE%22%3A25%2C%22MARK_AS_READ_TIMEOUT%22%3A4000%2C%22mastodonApiNamespace%22%3A%22api%2Fv1%22%2C%22MAX_AVATAR_SIZE%22%3A2000000%2C%22MAX_BACKGROUND_SIZE%22%3A4000000%2C%22MAX_BANNER_SIZE%22%3A4000000%2C%22MAX_BIO_LENGTH%22%3A5000%2C%22MAX_STATUS_CHARS%22%3A5000%2C%22MAX_UPLOAD_SIZE%22%3A16000000%2C%22OAUTH_SCOPES%22%3A%5B%22read%22%2C%22write%22%2C%22follow%22%2C%22push%22%5D%2C%22pleromaApiNamespace%22%3A%22api%2Fv1%2Fpleroma%22%2C%22POLLING_TIMEOUT%22%3A6000%2C%22testApiBaseUrl%22%3A%22https%3A%2F%2Fpleroma.example.com%22%2C%22TOAST_TIMEOUT%22%3A5000%2C%22USER_NAME_LENGTH%22%3A100%2C%22USERNAME_REGEX%22%3A%22%5E%5Ba-zA-Z0-9_-%5D*%24%22%2C%22name%22%3A%22pleroma-pwa%22%2C%22version%22%3A%220.0.0%2B984a2161%22%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22checks%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22ember-user-performance-monitoring%22%3A%7B%22enablePerformanceMeasures%22%3Afalse%2C%22includeAssetTimings%22%3Afalse%2C%22includeConnection%22%3Afalse%2C%22observeComponentRenders%22%3Afalse%2C%22observeLoad%22%3Afalse%2C%22observeTTI%22%3Afalse%2C%22watchTransitions%22%3Afalse%2C%22assetTimingOptions%22%3A%7B%22watchedAssets%22%3A%7B%22appJS%22%3A%7B%22matches%22%3A%22assets%2Fapp.*js%24%22%7D%2C%22appCSS%22%3A%7B%22matches%22%3A%22assets%2Fapp.*css%24%22%7D%2C%22vendorJS%22%3A%7B%22matches%22%3A%22assets%2Fvendor.*js%24%22%7D%2C%22vendorCSS%22%3A%7B%22matches%22%3A%22assets%2Fvendor.*css%24%22%7D%7D%7D%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22featureFlags%22%3A%7B%22accountLocking%22%3Afalse%2C%22backgroundImage%22%3Afalse%2C%22directMessages%22%3Atrue%2C%22emojiReactions%22%3Afalse%2C%22hideUnseenFeedItems%22%3Atrue%2C%22polls%22%3Atrue%2C%22pushNotifications%22%3Atrue%2C%22registration%22%3Atrue%2C%22reportUsers%22%3Afalse%2C%22search%22%3Atrue%2C%22showDirectMessagesClassic%22%3Atrue%2C%22showFullScreenName%22%3Atrue%2C%22simulateFirstUploadFail%22%3Afalse%2C%22statusDetails%22%3Atrue%2C%22statusDetailsFindRecord%22%3Atrue%2C%22statusMedia%22%3Atrue%2C%22usePreload%22%3Atrue%2C%22userProfiles%22%3Atrue%2C%22userSettings%22%3Atrue%2C%22useUpdatedTextareaAutoGrow%22%3Atrue%2C%22useLegacyKubernetesExecutionStrategy%22%3Atrue%2C%22networkPerBuild%22%3Afalse%2C%22skipNoopBuildStages%22%3Atrue%2C%22useDirectDownload%22%3Atrue%2C%22shellExecutorUseLegacyProcessKill%22%3Afalse%2C%22cmdDisableDelayedErrorLevelExpansion%22%3Afalse%7D%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Afalse%2C%22useDefaultPassthroughs%22%3Atrue%7D%7D" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-NfxbADAdpgr826AXWkHohZnFAXD2WGmzSoLLGG5RQpg=' 'sha256-RytLgjMPWyWm4BULKhyUN31LoNCPvJW6uUlVOm6MbDk=' https://sentry.io/api/embed/error-page/ https://*.ingest.sentry.io/api/embed/; font-src 'self'; connect-src 'self'  https://*.ingest.sentry.io https://sentry.io/api/embed/error-page/; img-src 'self' data:  https://*; manifest-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self' data:  https://*;">
+<link rel="apple-touch-icon" href="/assets/icons/appicon-32-001174a71a41c70403c60e2b45a4ef1e.png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/icons/appicon-192-f391b94d78872954cbc6622e613c769c.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/icons/appicon-280-20292d255a156ee615d0aaa07c4d3592.png" sizes="280x280">
+<link rel="apple-touch-icon" href="/assets/icons/appicon-512-46d4b2a88ad8260d97ec5fa7939fd461.png" sizes="512x512">
+<meta name="theme-color" content="#2e405c">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Pleroma PWA by DockYard">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="manifest" href="/manifest-e92a55666fe1a92e3653ed1c4acad13a.webmanifest">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <link rel="canonical" href="/">
+
+    <link integrity="" rel="stylesheet" href="/assets/vendor-ef89bfbbbbab872f6f245e3b3b0e8ad9.css">
+    <link integrity="" rel="stylesheet" href="/assets/pleroma-pwa-96a1444cfab83cc311fab3ff580c5fd0.css">
+
+    
+
+    <noscript>
+      <div class="noscript">
+        <p class="noscript__message">To use Pleroma, please enable JavaScript.</p>
+     </div>
+    </noscript>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="pleroma-pwa">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="/apple-touch-icon-1024x1024.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="pleroma-pwa">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="/apple-touch-startup-image-320x460.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="/apple-touch-startup-image-640x920.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="/apple-touch-startup-image-640x1096.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="/apple-touch-startup-image-750x1294.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="/apple-touch-startup-image-1182x2208.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="/apple-touch-startup-image-1242x2148.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="/apple-touch-startup-image-748x1024.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/apple-touch-startup-image-768x1004.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/apple-touch-startup-image-1496x2048.png">
+    <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/apple-touch-startup-image-1536x2008.png">
+    <link rel="icon" type="image/png" sizes="228x228" href="/coast-228x228.png">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <link rel="yandex-tableau-widget" href="/yandex-browser-manifest.json">
+  </head>
+  <body>
+    <div class="splash-screen" id="splash-screen">
+      <img src="/assets/images/spinner-29c473dda4835eab469d201b1eca9300.gif" width="64" height="64" role="alert" aria-busy="true">
+      <p class="splash-screen__message">One moment please...</p>
+    </div>
+
+    
+
+    <script src="/assets/vendor-1bafc9d9481394632af6608379c8dd98.js" integrity="sha256-8qUxoH+9RMeuZmI+YHSK1fkOfjLL5WsYTP/17GYomXo= sha512-DGd9XVUK0UA7h1gCl/6EGLCZZPQprTwKDI4D4Y4s5n2VsUTdAgbLhSNyjsM5el6KFId2wL6o9WZoFzkoyKhWfQ==" ></script>
+    <script src="/assets/pleroma-pwa-ac325e35c424f71e0f97efe495ab6e9b.js" integrity="sha256-PhzReJ8K3ok3WgIdOfYWXUuOam33XSqp+T8mb1v/+tQ= sha512-ZS6lAxmAe8siwIneOZAuOjhf87qmx2TACTyPO8tjZszgNEELB4+yqiLDD2pFk4akMHRRTg+LIiJn9TACMNrCYg==" ></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+</html>
